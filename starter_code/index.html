@@ -22,7 +22,7 @@
     <div>
       <img src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul id="navListing">
         <li>
           <a href="#">Product</a>
         </li>
@@ -38,7 +38,7 @@
       </ul>
     </div>
 
-    <div>
+    <div id="navIcons">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -46,16 +46,16 @@
       <button>
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
-      <ul hidden>
-        <li>
-          <a href="#">Sign in</a>
-        </li>
-        <li>
-          <a href="#">Try for free</a>
-        </li>
-      </ul>
     </div>
+    <ul hidden>
+      <li>
+        <a href="#">Sign in</a>
+      </li>
+      <li>
+        <a href="#">Try for free</a>
+      </li>
+    </ul>
+
   </nav>
 
 
@@ -64,9 +64,9 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span id="yellowText">Slack is free to try</span><span id="whiteText"> for as long as you'd like.</span></p>
 
-      <div>
+      <div id="signUpButtons">
         <button>Sign up with email</button>
 
         <button>
@@ -83,7 +83,7 @@
   </header>
 
   <main>
-    <section>
+    <section id="ivorySection">
       <p>Trusted by companies all over the world</p>
 
       <div>
@@ -97,7 +97,7 @@
 
     </section>
 
-    <section>
+    <section id="percentageSection">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
@@ -129,7 +129,7 @@
       </ul>
     </section>
 
-    <section>
+    <section id="preFooter">
       <h3>Welcome to your new digital HQ</h3>
 
       <button>Try for free</button>
@@ -138,7 +138,9 @@
 
   </main>
 
+
   <footer>
+    <hr>
     <ul>
       <li>Status</li>
       <li>Privacy</li>
@@ -149,7 +151,7 @@
       <li>Download Slack</li>
     </ul>
 
-    <hr>
+
 
     <ul>
       <li>
